@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+    outline: none;
+    box-sizing: border-box;
+    font-family: 'Pathway Extreme', sans-serif;
+
+
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-color: grey;
+}
+
+.links {
+    margin-left: auto;
+}
+
+.container {
+    margin: 10px 430px;
+}
+
+form .form-control {
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.form-control::placeholder {
+    color: white;
+    /* Replace with your desired color */
+}
+
+form {
+    position: relative;
+}
+
+form .btn1 {
+    position: absolute;
+    color: white;
+    margin-left: 330px;
+    margin-top: 10px;
+    width: fit-content;
+}
+
+form .btn1:hover {
+    color: white;
+}
+
+.cont {
+    border-radius: 8px;
+}
+.cont #location{
+    display: flex;
+    flex-direction: row;
+    column-gap: 300px;
+}
+
+
+.temp_status {
+    visibility:visible;
+    display: flex;
+    flex-direction: row;
+    column-gap: 180px ;
+}
+.sys{
+    display: flex;
+    column-gap: 300px;
+}
+
+footer {
+    margin-top: auto;
+    width: 100vw;
+}
+
+footer p {
+    color: white;
+    background-color: black;
+    padding: 20px;
+
+    text-align: center;
+
+}
