@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+
+    {{!-- Links in the header --}}
+    {{>header_links}}
+    {{!-- <link rel="stylesheet" href="css/style.css"> --}}
+    <link rel="stylesheet" href="css/about.css">
+
+</head>
+
+<body>
+
+    <!-- Nav bar -->
+    {{>nav}}
+    <!-- Main content -->
+    <div class="row">
+        <div class="cont-right col-md-6  mx-auto">
+
+            {{!-- <img src='https://images.unsplash.com/photo-1542744095-291d1f67b221?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fGxhcHRvcHxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60' class="d-block w-100" alt="..." width="70%" height="100%"> --}}
+            <img src='/imgs/3.jpg' class="d-block w-100" alt="..." width="70%" height="100%">
+
+        </div>
+
+        <div class="cont-left col-md-6  mx-auto">
+
+            <p>Welcome to weather App</p>
+            <h1>Welocome to<span> Weather Website</span></h1>
+            <p>This is a best<span> Waether </span>website which is bulit for you to check the current weather condtion of your city. Its maded by Farooq Ali Sani.
+    <a href="https://github.com/FarooqAliSani/">GitHub Link</a>
+            
+            </p>
+            <hr>
+            <button class="btn btn-outline-dark"> <a href="http://localhost:7000/weather" class="btn">Check now</a> </button>
+
+        </div>
+
+    </div>
+    </div>
+
+    {{!-- Footer --}}
+    {{>footer}}
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+        crossorigin="anonymous"></script>
+
+
+</body>
+
+</html>

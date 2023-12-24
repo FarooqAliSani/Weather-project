@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    {{!-- Links in the header --}}
+    {{>header_links}}
+<link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+    <!-- Nav bar -->
+    {{>nav}}
+
+    <!-- Main content -->
+
+    <div class="row">
+        <div class="cont-right col-md-6 col-12 mx-auto">
+            <p>Welcome to weather App</p>
+            <h1>Get the Latest <span class="text-primary">Weather</span> Info of your city</h1>
+            <button class="btn btn-outline-dark"> <a href="http://localhost:7000/weather" class="btn">Check now</a> </button>
+
+        </div>
+
+        <div class="cont-left col-md-6 col-12 mx-auto">
+
+            <div id="carouselExample" class="carousel slide">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src='imgs/2.jpg' class="d-block w-100" alt="..." width="70%" height="100%">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="imgs/3.jpg"
+                            class="d-block w-100" alt="..." width="70%" height="100%">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="imgs/4.jpg"
+                            class="d-block w-100" alt="..." width="70%" height="100%">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExample"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+
+        </div>
+    </div>
+
+    {{!-- Footer --}}
+    {{>footer}}
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+        crossorigin="anonymous"></script>
+
+    
+
+</body>
+
+</html>
